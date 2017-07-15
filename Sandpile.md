@@ -14,9 +14,11 @@ One simple addition
 121   020    313  
 
 A lot of redistribution  
+<p>
 121   303    212  
 232 + 000 -> 131  
-121   303    212  
+121   303    212 
+</p>
 
 Bigger  
 31003   11111    22112  
