@@ -49,7 +49,7 @@ Find the intersections
 Find all points (nodes) on the maze that are "intersections": Have 3 or more valid directions to move from.
 Answer: There are 832.
 
-Output: Print the graph in a temporary file and replace the '.' with 'o'.
+**Output:** Print the graph in a temporary file and replace the '.' with 'o'.
 
 Get distance from each node to all other "close intersection"
 =============================================================
@@ -59,5 +59,5 @@ Basically, you are finding the nearest neighbours to each node.
 For example, looking at the top left of the maze, there is a node in row 1, column 3. 
 This node has only 2 neighbours: one that is 4 moves away in row 3 column 5. The other 2 moves away at row 3 column 3. 
 
-Output: print the list order by ascending, for each node after the modified maze from task one, as follow
+**Output:** print the list order by ascending, for each node after the modified maze from task one, as follow
 (node) => (neigbours node)=distance, (neigbours node)=distance....
