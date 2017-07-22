@@ -36,3 +36,7 @@ Scenarios
 02131   12221    12332  
 30013   11111    21122  
 </pre>
+
+# Acknowledgement
+Adapted from https://www.codingame.com/
+ 

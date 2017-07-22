@@ -61,3 +61,6 @@ This node has only 2 neighbours: one that is 4 moves away in row 3 column 5. The
 
 **Output:** print the list order by ascending, for each node after the modified maze from task one, as follow
 (node) => (neigbours node)=distance, (neigbours node)=distance....
+
+# Acknowledgement
+Adapted from reddit
