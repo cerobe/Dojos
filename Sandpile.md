@@ -31,8 +31,11 @@ To add two sandpiles, just start by adding the two matrices element by element. 
 000   000   000    010  
 </pre>
 
-Scenarios
+Scenarios for the Dojo
 =========
+The goal is to write a program that will solve the following scenario.
+Don't forget to try with the example first for an easy start.
+
 **One simple addition with multiple crumbles**
 <pre>
 121   020    141    303    313
