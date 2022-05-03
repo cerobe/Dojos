@@ -1,8 +1,9 @@
 Sandpile
 ========
-A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and represent how many grains of sand there is in the pile. If a sandpile is higher that 3, it will crumble in the four directions (Up, Down, Left, Right)
+A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and represent how many grains of sand there is in the pile. If a sandpile is higher that 3, it will crumble in the four directions (Up, Down, Left, Right).
+A sanpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
 
-**Example**  
+**Rules explanations**  
 <pre>
 000    010  
 040 -> 101  Sandpile (1,1) has height > 3 so it crumbles in the four directions
@@ -13,10 +14,6 @@ A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and repre
 060 -> 121  Sandpile (1,1) will crumbles but there will be some leftover
 000    010  
 </pre>
-
-Sandpile Matrix
-==============
-A sanpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
 
 Sandpile Matrix Addition
 =================
