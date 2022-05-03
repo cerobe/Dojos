@@ -5,12 +5,12 @@ A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and repre
 **Example**  
 <pre>
 000    010  
-040 -> 101  
+040 -> 101  The sandpile at (1,1) has a size > 3 so it will crumble in the directions (Up, Down, Left, Right)
 000    010  
 </pre>
 <pre>
 000    010  
-060 -> 121  
+060 -> 121  The sandpile at (1,1) has a size > 3 so it will crumble in the directions (Up, Down, Left, Right) but there will be some leftover
 000    010  
 </pre>
 
@@ -18,9 +18,9 @@ Sandpile Matrix
 ==============
 A sanpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
 
-Sandpile addition
+Sandpile Matrix Addition
 =================
-To add two sandpiles, just start by adding the two matrices element by element. Except the matrix you generate might not be a stable sandpile, if one of its element is higher than 3 you must transform this matrix into a sandpile, and this is how it is done :
+To add two sandpiles matrices, just start by adding the two matrices element by element. Except the matrix you generate might not be a stable sandpile, if one of its element is higher than 3 you must transform this matrix into a sandpile, and this is how it is done :
 - If a square has 4 grains of sand or more, it "loses" four and distributes it to its four neighbors (if the square touches an edge, the grain of sand is lost)
 - Keep doing that to all the squares with 4 grains or more until all the squares have 3 grains or less
 
