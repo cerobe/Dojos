@@ -5,12 +5,12 @@ A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and repre
 **Example**  
 <pre>
 000    010  
-040 -> 101  The sandpile at (1,1) has a size > 3 so it will crumble in the directions (Up, Down, Left, Right)
+040 -> 101  Sandpile (1,1) has height > 3 so it crumbles in the four directions
 000    010  
 </pre>
 <pre>
 000    010  
-060 -> 121  The sandpile at (1,1) has a size > 3 so it will crumble in the directions (Up, Down, Left, Right) but there will be some leftover
+060 -> 121  Sandpile (1,1) will crumbles but there will be some leftover
 000    010  
 </pre>
 
