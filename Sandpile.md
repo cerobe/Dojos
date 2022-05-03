@@ -1,6 +1,7 @@
 Sandpile
 ========
 A Sandpile is a tower of sand grain. The tower high is between 0 and 3 and represent how many grains of sand there is in the pile. If a sandpile is higher that 3, it will crumble in the four directions (Up, Down, Left, Right)
+
 **Example**  
 <pre>
 000    010  
