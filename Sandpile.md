@@ -38,15 +38,15 @@ Don't forget to try with the example first for an easy start.
 
 **One simple addition with multiple crumbles**
 <pre>
-121   020    141    303    313
-202 + 202 -> 404 -> 040 -> 101
-121   020    141    303    313
+121   020   141    303    313
+202 + 202 = 404 -> 040 -> 101
+121   020   141    303    313
 </pre>
 
 **A lot of redistribution**
 <pre>
 121   303    212  
-232 + 000 -> 131  
+232 + 000 => 131  
 121   303    212 
 </pre>
 
@@ -54,7 +54,7 @@ Don't forget to try with the example first for an easy start.
 <pre>
 31003   11111    22112  
 13120   12221    23321  
-01310 + 12321 -> 13231  
+01310 + 12321 => 13231  
 02131   12221    12332  
 30013   11111    21122  
 </pre>
