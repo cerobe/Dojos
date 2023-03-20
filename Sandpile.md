@@ -14,6 +14,11 @@ A sanpile matrix is a collection of sandpile. Each sandpile matrix is square, so
 060 -> 121  Sandpile (1,1) will crumbles but there will be some leftover
 000    010  
 </pre>
+<pre>
+600    210  
+000 -> 100  Sandpile (0,0) will crumbles but there will be some leftover. Grains going outside of the matrix are lost
+000    000  
+</pre>
 
 Sandpile Matrix Addition
 =================
