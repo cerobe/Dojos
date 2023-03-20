@@ -1,22 +1,25 @@
 Sandpile
 ========
 A Sandpile is a tower of sand grain. If a sandpile is stable then it's high is between 0 and 3 and represent how many grains of sand there is in the pile. If a sandpile is higher that 3, it will crumble in the four directions (Up, Down, Left, Right).
-A sanpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
+A sandpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
 
 **Rules explanations**  
+In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions
 <pre>
 000    010  
-040 -> 101  Sandpile (1,1) has height > 3 so it crumbles in the four directions
+040 -> 101  
 000    010  
 </pre>
+In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions but there will be leftover
 <pre>
 000    010  
-060 -> 121  Sandpile (1,1) will crumbles but there will be some leftover
+060 -> 121  
 000    010  
 </pre>
+In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles, the grains going outside of the matrix are lost
 <pre>
 600    210  
-000 -> 100  Sandpile (0,0) will crumbles but there will be some leftover. Grains going outside of the matrix are lost
+000 -> 100  
 000    000  
 </pre>
 
