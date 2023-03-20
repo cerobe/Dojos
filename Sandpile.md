@@ -1,7 +1,9 @@
 Sandpile
 ========
-A Sandpile is a tower of sand grain. If a sandpile is stable then it's high is between 0 and 3 and represent how many grains of sand there is in the pile. If a sandpile is higher that 3, it will crumble in the four directions (Up, Down, Left, Right).
-A sandpile matrix is a collection of sandpile. Each sandpile matrix is square, so the width is equal to the height.
+- A sandpile is a top-down view of a tower of sand grains. 
+- When a sandpile is stable, its height ranges between 0 and 3, indicating the number of sand grains in the pile. 
+- If a sandpile exceeds a height of 3, it will collapse in four directions: up, down, left, and right. 
+- A sandmatrix is a collection of sandpiles, each number represent the heigh of the sandpile at that coordinate.
 
 **Rules explanations**  
 In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions
@@ -25,7 +27,8 @@ In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles, the grains
 
 Sandmatrix Addition
 =================
-To add two sandmatrices, just add the two matrices sandpile by sandpile. Except the matrix you generate might not be stable. If one of its sandpile is higher than 3 it will cramble.  
+- To add sandmatrices, add their sandpiles. Align the top left corners
+- The result matrix might not be stable. If one of its sandpile is higher than 3 it will cramble.  
 **Example**  
 <pre>
 000   000   000    010  
@@ -60,7 +63,4 @@ Don't forget to try with the example first for an easy start.
 02131   12221    12332  
 30013   11111    21122  
 </pre>
-
-# Acknowledgement
-Adapted from https://www.codingame.com/
  
