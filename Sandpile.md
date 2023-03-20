@@ -23,12 +23,9 @@ In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles, the grains
 000    000  
 </pre>
 
-Sandpile Matrix Addition
+Sandmatrix Addition
 =================
-To add two sandpiles matrices, just start by adding the two matrices element by element. Except the matrix you generate might not be a stable sandpile, if one of its element is higher than 3 you must transform this matrix into a sandpile, and this is how it is done :
-- If a square has 4 grains of sand or more, it "loses" four and distributes it to its four neighbors (if the square touches an edge, the grain of sand is lost)
-- Keep doing that to all the squares with 4 grains or more until all the squares have 3 grains or less
-
+To add two sandmatrices, just add the two matrices sandpile by sandpile. Except the matrix you generate might not be stable. If one of its sandpile is higher than 3 it will cramble.  
 **Example**  
 <pre>
 000   000   000    010  
