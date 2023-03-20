@@ -5,7 +5,7 @@ Sandpile
 - If a sandpile exceeds a height of 3, it will collapse in four directions: up, down, left, and right. 
 - A sandmatrix is a collection of sandpiles, each number represent the heigh of the sandpile at that coordinate.
 
-**Rules explanations**  
+**Examples**  
 In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions
 <pre>
 000    010  
@@ -29,6 +29,7 @@ Sandmatrix Addition
 =================
 - To add sandmatrices, add their sandpiles. Align the top left corners
 - The result matrix might not be stable. If one of its sandpile is higher than 3 it will cramble.  
+
 **Example**  
 <pre>
 000   000   000    010  
