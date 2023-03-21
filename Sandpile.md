@@ -27,7 +27,10 @@ In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles and the gra
 
 Sandmatrix Addition
 =================
-- To add sandmatrices: Align their top left corners, add their sandpiles and stabilise them if needed.  
+To add sandmatrices: 
+ - Align their top left corners
+ - Add their sandpiles
+ - Stabilise them if needed
 
 **Example**  
 <pre>
