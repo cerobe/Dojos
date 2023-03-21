@@ -6,19 +6,19 @@ Sandpile & Sandmatrix
 - A sandmatrix is a collection of sandpiles, each number represent the heigh of the sandpile at that coordinate.
 
 **Examples**  
-In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions
+In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions (up, down, left, and right)
 <pre>
 000    010  
 040 -> 101  
 000    010  
 </pre>
-In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles in the four directions but there will be leftover
+In the following 3x3 Sandmatrix, the Sandpile at (1,1) has an height > 3 so it crumbles but there will be leftover (2)
 <pre>
 000    010  
 060 -> 121  
 000    010  
 </pre>
-In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles, the grains going outside of the matrix are lost
+In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles and the grains going outside of the sandmatrix are lost
 <pre>
 600    210  
 000 -> 100  
@@ -27,8 +27,7 @@ In the following 3x3 Sandmatrix, the Sandpile at (0,0) will crumbles, the grains
 
 Sandmatrix Addition
 =================
-- To add sandmatrices, add their sandpiles. Align the top left corners
-- The result matrix might not be stable. If one of its sandpile is higher than 3 it will cramble.  
+- To add sandmatrices: Align their top left corners, add their sandpiles and stabilise them if needed.  
 
 **Example**  
 <pre>
