@@ -1,4 +1,4 @@
-Sandpile
+Sandpile & Sandmatrix
 ========
 - A sandpile is a top-down view of a tower of sand grains. 
 - When a sandpile is stable, its height ranges between 0 and 3, indicating the number of sand grains in the pile. 
